@@ -1,5 +1,7 @@
 # WVZ
 
+Method development for improving the accuracy of LHC data analysis using machine learning tools. In particular, a study of the statistical impact and systematic uncertainty on the accuracy of data analysis.
+
 Here WVZ analysis is replicated [[1](https://cds.cern.ch/record/2314648/files/ATL-COM-PHYS-2018-420.pdf?)]. 
 
 You must have access to the NR TSU server:
