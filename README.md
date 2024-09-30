@@ -1,4 +1,4 @@
-# WVZ
+# Search for WWZ production in pp collisions at √s = 13TeV
 
 Method development for improving the accuracy of LHC data analysis using machine learning tools. In particular, a study of the statistical impact and systematic uncertainty on the accuracy of data analysis.
 
