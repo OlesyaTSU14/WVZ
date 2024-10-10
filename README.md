@@ -1,4 +1,4 @@
-# Search for WWZ production in pp collisions at √s = 13TeV
+# Methodology for Improving Data Analysis Accuracy in the ATLAS Experiment: A Case Study of WWZ Production in Proton-Proton Collisions
 
 Method development for improving the accuracy of LHC data analysis using machine learning tools. In particular, this study explores the statistical impact and systematic uncertainties affecting the accuracy of data analysis.
 
