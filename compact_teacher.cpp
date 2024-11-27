@@ -71,8 +71,6 @@ void compact_teacher() {
     TTree *tree_sig__MC16d_364243 = (TTree *)sig__MC16d_364243->Get("nominal");
     TTree *tree_sig__MC16d_364245 = (TTree *)sig__MC16d_364245->Get("nominal");
     TTree *tree_sig__MC16d_364246 = (TTree *)sig__MC16d_364246->Get("nominal");
-    // TTree *tree_sig__nominal_VH_sig = (TTree *)sig__nominal_VH_sig->Get("nominal");
-    // TTree *tree_nominal_VH_sig = tree_sig__nominal_VH_sig->CopyTree("( (higgsDecayMode<-1) || ( ((MCchannelNumber==342284) && ((higgsDecayMode==1) || (higgsDecayMode==5))) || ((MCchannelNumber==342285) && (higgsDecayMode==1)) ) )");
     TTree *tree_bkg__MC16a_345705 = (TTree *)bkg__MC16a_345705->Get("nominal");
     TTree *tree_bkg__MC16a_345706 = (TTree *)bkg__MC16a_345706->Get("nominal");
     TTree *tree_bkg__MC16a_364250 = (TTree *)bkg__MC16a_364250->Get("nominal");
@@ -88,10 +86,6 @@ void compact_teacher() {
     TTree *tree_bkg__MC16d_410219 = (TTree *)bkg__MC16d_410219->Get("nominal");
     TTree *tree_bkg__MC16d_410220 = (TTree *)bkg__MC16d_410220->Get("nominal");
     TTree *tree_bkg__MC16d_410408 = (TTree *)bkg__MC16d_410408->Get("nominal");
-    // TTree *tree_bkg__nominal_VH_bkg = (TTree *)bkg__nominal_VH_bkg->Get("nominal");
-    // TTree *tree_nominal_VH_bkg = tree_bkg__nominal_VH_bkg->CopyTree("(!( (higgsDecayMode<-1) || ( ((MCchannelNumber==342284) && ((higgsDecayMode==1) || (higgsDecayMode==5))) || ((MCchannelNumber==342285) && (higgsDecayMode==1)) ) ))");
-    //  TTree *tree_nominal_VH_bkg = tree_bkg__nominal_VH_bkg->CopyTree("(!( (higgsDecayMode<-1) || ( ((MCchannelNumber==342284) && ((higgsDecayMode==1) || (higgsDecayMode==5))) || ((MCchannelNumber==342285) && (higgsDecayMode==1)) ) ))");
-    //   TTree *tree_bkg__nominal_VH_bkg = (TTree *)bkg__nominal_VH_bkg->Get("nominal");
     TTree *tree_bkg__nominal_Zgamma = (TTree *)bkg__nominal_Zgamma->Get("nominal");
     TTree *tree_bkg__nominal_Zjets = (TTree *)bkg__nominal_Zjets->Get("nominal");
     TTree *tree_bkg__nominal_lllljj = (TTree *)bkg__nominal_lllljj->Get("nominal");
