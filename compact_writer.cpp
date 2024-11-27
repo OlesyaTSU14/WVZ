@@ -86,13 +86,10 @@ void BDTG_ApplyTree( TTree *tree_WORK , TMVA::Reader *reader )
    tree_WORK->SetBranchAddress( "leptons_jets_MET_tot_invMass",&leptons_jets_MET_tot_invMass );
    tree_WORK->SetBranchAddress( "M_T_Wlv",              &M_T_Wlv );
    tree_WORK->SetBranchAddress( "MET_RefFinal_et",      &MET_RefFinal_et ); // tree_WORK->SetBranchAddress( "mll_1",              &mll_1_var);
-// tree_WORK->SetBranchAddress( "mll_2",              &mll_2_var );
    tree_WORK->SetBranchAddress( "Mlll012",		&Mlll012 );
    tree_WORK->SetBranchAddress( "subleadJet_pt",        &subleadJet_pt );
    tree_WORK->SetBranchAddress( "total_charge",         &total_charge );
-// tree_WORK->SetBranchAddress( "W_pt",             &W_pt_var );
    tree_WORK->SetBranchAddress( "Zll_leadJet_invMass",  &Zll_leadJet_invMass );
-// tree_WORK->SetBranchAddress( "Z_pt",             &Z_pt_var );
    tree_WORK->SetBranchAddress( "best_W_Mjj",           &best_W_Mjj );
    tree_WORK->SetBranchAddress( "smallest_Mjj",         &smallest_Mjj );
    tree_WORK->SetBranchAddress( "nJets_OR",             &nJets_OR );
